@@ -5,10 +5,17 @@ export const Nav = () => {
     <nav>   
         <ul>
           <h1>Este es mi nav</h1>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>   
-            <li>carrito </li> 
+            <li>
+              <a href="./Home">Home</a></li>
+            <li>
+              <a href="./About"> About</a>
+             </li>
+            <li>
+             <a href="./Contact"> Contact
+              </a>
+              </li>   
+            <li>
+              <a href="./Carrito" > Carrito </a>  </li> 
         </ul>
     </nav>
   );
