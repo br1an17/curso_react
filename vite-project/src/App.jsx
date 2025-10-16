@@ -1,14 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Nav } from './componentes/Nav/Nav.jsx'
+import { Route, Routes } from 'react-router-dom'
+import { ItemDetailContainer } from './componentes/itemDetailContainer/itemDetailContainer.jsx'
 import './App.css'
-import { Boton } from './componentes/boton.jsx'
-import { Form } from './componentes/form.jsx'
-import { Card } from './componentes/card.jsx'
-import { Header } from './componentes/Header/Header.jsx'
 
-import { Footer } from './componentes/footer/footer.jsx'
 import { BrowserRouter } from 'react-router-dom'
+import { ItemListContainer } from './componentes/itemListContainer/itemListContainer.jsx'
 
 function App() {
 
@@ -17,7 +13,11 @@ function App() {
     <>
    <BrowserRouter>
    <Nav/>
-   <Routes></Routes>
+   <Routes>
+    <Route path="/" element={<ItemListContainer />} />
+    <Route path="/detail/:Id" element={<ItemDetailContainer/>
+    } />
+   </Routes>
    </BrowserRouter>
     </>
   )

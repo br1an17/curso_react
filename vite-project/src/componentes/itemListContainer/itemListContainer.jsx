@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
-
+import { ItemList } from '../itemList/itemList.jsx'
 export const ItemListContainer = () => {
     const[products, setProducts] = useState([])
     
 
     useEffect(() => {
-        fetch("/data/productos.json")
+        fetch("/data/products.json")
         .then((res)=>{
             if(!res.ok){
                 throw new Error("Hubo un error al cargar los productos")
