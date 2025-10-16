@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Nav = () => {
   return (
@@ -6,17 +7,19 @@ export const Nav = () => {
         <ul>
           <h1>Este es mi nav</h1>
             <li>
-              <a href="./Home">Home</a></li>
+              <Link to="/"> Home </Link>
+            </li>
             <li>
-              <a href="./About"> About</a>
+             <Link to="/category/dulce">dulce</Link>
              </li>
             <li>
-             <a href="./Contact"> Contact
-              </a>
+             <Link to="/category/salado">salado</Link>
               </li>   
             <li>
-              <a href="./Carrito" > Carrito </a>  </li> 
+               </li> 
         </ul>
+
+
     </nav>
   );
 }   
