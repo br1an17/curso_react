@@ -1,14 +1,16 @@
 import React from 'react';
 
 
-export const Item = ({ title, description, price, image }) => {
+export const Item = ({ name,price,description,imageUrl,children }) => {
   return (
-    <div className="item">              
-
-        <h2 className="item-title">{title}</h2>
-        <p className="item-description">{description}</p>
-        <p className="item-price">${price}</p>
-    </div>
+   <article className="product-item">
+    <img src="{imageUrl}" alt="{description}" />
+    <h2 class="product-title">{name}</h2>
+    <p class="product-price">Precio:${price}</p>
+    <p class="product-description">{description}</p>
+    {children}
+   </article>
+ 
   );
 }
 
