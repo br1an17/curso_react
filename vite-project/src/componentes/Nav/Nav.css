@@ -1,38 +1,40 @@
-nav {
-   width: 100%;
-  background-color: #923535; /* gris oscuro / casi negro */
-  padding: 1rem 2rem;
+.navbar {
+  width: 100vw; /* ocupa todo el ancho de la ventana */
+  background-color: #1f1f1f; /* negro/gris oscuro */
+  color: #f4c542; /* amarillo suave */
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* sombra sutil */
-  position: relative; /* o fixed si querés que se quede arriba */
+  padding: 1rem 3rem;
+  box-sizing: border-box;
+  position: fixed; /* opcional: se queda arriba al hacer scroll */
   top: 0;
   left: 0;
+  z-index: 1000;
+  border-bottom: 3px solid #f4c542;
 }
 
-nav h1 {
-  color: #f5c400; /* amarillo suave */
-  margin-right: 2rem;
-  font-size: 1.5rem;
+.nav-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #f4c542;
 }
 
-nav ul {
+.nav-links {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
-  align-items: center;
+  gap: 2rem;
   margin: 0;
   padding: 0;
 }
 
-nav a {
-  text-decoration: none;
-  color: #ddd; /* gris claro */
+.nav-links a {
+  color: #f0f0f0;
   font-weight: 500;
-  transition: color 0.3s;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-nav a:hover {
-  color: #f5c400; /* amarillo al pasar el mouse */
+.nav-links a:hover {
+  color: #f4c542;
 }

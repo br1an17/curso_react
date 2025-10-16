@@ -1,5 +1,5 @@
 [
-  {
+ {
     "id": "1",
     "name": "Budín de limón",
     "price": 4500,
@@ -22,5 +22,29 @@
     "price": 1200,
     "description": "Hojaldre 100% manteca, crujiente por fuera y tierno por dentro.",
     "imageUrl": "/images/croissant.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Focaccia con romero",
+    "category": "salado",
+    "price": 2500,
+    "description": "Pan italiano con aceite de oliva, sal marina y romero fresco.",
+    "imageUrl": "/images/focaccia-romero.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Tarta de frutillas",
+    "category": "dulce",
+    "price": 4800,
+    "description": "Base crocante con crema pastelera y frutillas frescas.",
+    "imageUrl": "/images/tarta-frutillas.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Empanadas de carne",
+    "category": "salado",
+    "price": 900,
+    "description": "Relleno clásico de carne cortada a cuchillo con especias.",
+    "imageUrl": "/images/empanadas-carne.jpg"
   }
 ]

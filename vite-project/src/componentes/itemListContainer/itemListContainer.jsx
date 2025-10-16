@@ -21,7 +21,7 @@ export const ItemListContainer = () => {
     }, [])
 
     return (
-    <section>
+    <section className='itemListContainer'>
         <h1>Bienvenido</h1>
         <ItemList list={products}/>
     </section>
