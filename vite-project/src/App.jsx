@@ -5,6 +5,7 @@ import './App.css'
 
 import { BrowserRouter } from 'react-router-dom'
 import { ItemListContainer } from './componentes/itemListContainer/itemListContainer.jsx'
+import { Card } from './componentes/card.jsx'
 
 function App() {
 
@@ -15,8 +16,10 @@ function App() {
    <Nav/>
    <Routes>
     <Route path="/" element={<ItemListContainer />} />
-    <Route path="/detail/:Id" element={<ItemDetailContainer/>
+    <Route path="/detail/:id" element={<ItemDetailContainer/>
     } />
+     <Route path="/category/dulce" element={<Card imagen="/public/images/enConstruccion.png"/>} />
+     <Route path="/category/salado" element={<Card imagen="/public/images/enConstruccion.png"/>} />
    </Routes>
    </BrowserRouter>
     </>
