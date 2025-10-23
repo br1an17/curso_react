@@ -2,7 +2,7 @@
  {
     "id": "1",
     "name": "Budín de limón",
-    "price": 4500,
+    "price": 3500,
     "category": "dulce",
     "description": "Budín húmedo de limón con glaseado casero.",
     "imageUrl": "/images/budin-limon.jpg"
@@ -10,7 +10,7 @@
   {
     "id": "2",
     "name": "Pan de masa madre",
-    "price": 3200,
+    "price": 2500,
     "category": "salado",
     "description": "Hogaza de 750 g con fermentación lenta de 24 horas.",
     "imageUrl": "/images/pan-masa-madre.jpg"
@@ -19,7 +19,7 @@
     "id": "3",
     "name": "Croissant de manteca",
     "category": "dulce",
-    "price": 1200,
+    "price": 800,
     "description": "Hojaldre 100% manteca, crujiente por fuera y tierno por dentro.",
     "imageUrl": "/images/croissant.jpg"
   },
@@ -35,7 +35,7 @@
     "id": "5",
     "name": "Tarta de frutillas",
     "category": "dulce",
-    "price": 4800,
+    "price": 10800,
     "description": "Base crocante con crema pastelera y frutillas frescas.",
     "imageUrl": "/images/tarta-frutillas.jpg"
   },
@@ -43,8 +43,41 @@
     "id": "6",
     "name": "Empanadas de carne",
     "category": "salado",
-    "price": 900,
+    "price": 1500,
     "description": "Relleno clásico de carne cortada a cuchillo con especias.",
     "imageUrl": "/images/empanadas-carne.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Muffin de arándanos",
+    "price": 1000,
+    "category": "dulce",
+    "description": "Muffin esponjoso con arándanos frescos y 'crumble' de azúcar.",
+    "imageUrl": "/images/muffin-arandanos.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Torta de chocolate",
+    "price": 15850,
+    "category": "salado",
+    "description": "Torta realizada con el mejor chocolate con dulce de leche y frutas.",
+    "imageUrl": "/images/torta-chocolate.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Cheesecake",
+    "price": 9500,
+    "category": "dulce",
+    "description": "Tarta de queso horneada sobre base de galletas con salsa de frutos rojos.",
+    "imageUrl": "/images/cheesecake.jpg"
+  },
+  {
+    "id": "10",
+    "name": "tostado de jamón y queso",
+    "price": 2800,
+    "category": "salado",
+    "description": "Pan de molde tostado con jamón cocido natural y queso dambo.",
+    "imageUrl": "/images/tostado.jpg"
   }
+
 ]
