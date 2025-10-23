@@ -56,3 +56,24 @@ margin-right: 10%;
   transition: 0.3s ease;
   transform: scale(1.05);
 }
+@media (max-width: 768px) {
+  .product-item {
+    flex-direction: column; /* imagen arriba, texto abajo */
+    text-align: center;
+  }
+
+  .product-item img {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .product-description {
+    max-width: 90%;
+    margin: 0 auto 15px;
+  }
+
+  .product-item button {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
