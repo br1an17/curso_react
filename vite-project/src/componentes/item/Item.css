@@ -14,10 +14,12 @@
 }
 
 .product-item img {
+margin-right: 10%;
   width: 300px;
   height: auto;
   border-radius: 10px;
 }
+
 
 .product-title {
   font-size: 1.5rem;
@@ -32,4 +34,25 @@
 .product-description {
   color: #ccc;
   max-width: 600px;
+}
+.product-item button {
+  background: transparent;      
+  border: 2px solid #ffc107; 
+  margin-left: 15%;
+  display: block;              
+  color: #ffc107;
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.product-item button:hover {
+    color: #fff;
+    box-shadow: #fff 0 0 10px;
+    border: #fff 2px solid ;
+  text-shadow: 0 0 10px var(--primary-color);
+  transition: 0.3s ease;
+  transform: scale(1.05);
 }

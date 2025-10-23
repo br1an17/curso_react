@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { Item } from "../Item/Item"
-import { Boton } from "../Boton"
+
+
 export const ItemList = ({list}) => {
       console.log("Lista recibida:", list);
     return (

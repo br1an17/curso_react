@@ -1,13 +1,13 @@
-.navbar {
-  width: 100vw; /* ocupa todo el ancho de la ventana */
-  background-color: #1f1f1f; /* negro/gris oscuro */
-  color: #f4c542; /* amarillo suave */
+nav {
+  width: 100vw; 
+  background-color: #1f1f1f;
+  color: #f4c542;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
   box-sizing: border-box;
-  position: fixed; /* opcional: se queda arriba al hacer scroll */
+  position: fixed; 
   top: 0;
   left: 0;
   z-index: 1000;
@@ -18,6 +18,17 @@
   font-size: 1.6rem;
   font-weight: bold;
   color: #f4c542;
+   animation: shine 2s infinite alternate;
+}
+
+
+@keyframes shine {
+  0% {
+    text-shadow: 0 0 5px var(--primary-color);
+  }
+  100% {
+    text-shadow: 0 0 20px #ffb84d, 0 0 40px var(--primary-color);
+  }
 }
 
 .nav-links {
@@ -37,4 +48,9 @@
 
 .nav-links a:hover {
   color: #f4c542;
+}
+nav h1:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #f4c542;
+  transition: 0.3s ease;
 }
