@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
-import { useCartContext as useCart } from "../../context/CartContext/UseCartContext.js";
+import { useCartContext as useCart } from "../../context/CartContext/useCartContext";
 export const Nav = () => {
   
   const { getTotalItems } = useCart();
@@ -10,6 +10,9 @@ export const Nav = () => {
     <nav className="navbar">
       <h1 className="nav-title">tiendITa.</h1>
       <ul className="nav-links">
+        <li>
+          <Link to="/admin"> Admin </Link>
+        </li>
         <li>
           <Link to="/"> Home </Link>
         </li>
@@ -20,7 +23,7 @@ export const Nav = () => {
           <Link to="/category/salado">Salado</Link>
         </li>
         <li>
-          <Link > Carrito </Link>
+          <Link to="/carrito"> Carrito </Link>
           {getTotalItems() > 0 &&
           <span className="in-cart">{getTotalItems()}</span>
           }
