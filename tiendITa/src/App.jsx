@@ -6,7 +6,7 @@ import { Card } from "./extras/card.jsx";
 import { Footer } from "./componentes/Footer/Footer.jsx";
 import { CartProvider } from "./context/CartContext/CartProvider.jsx";
 import { MainLayout } from "./Layouts/MainLayout.jsx";
-import { AdminLayout } from "./Layouts/AdminLayout.jsx";
+import { AdminLayout } from "./Layouts/Adminlayout.jsx";
 import { RutaProtegida } from "./componentes/rutaProtegida/RutaProtegida.jsx";
 import { Login } from "./componentes/login/Login.jsx";
 import { Cart } from "./componentes/Cart/Cart.jsx";
