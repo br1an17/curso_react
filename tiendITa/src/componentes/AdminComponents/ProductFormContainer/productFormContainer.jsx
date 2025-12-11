@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { ProductFormUI } from "../ProductFormUI/ProductFormUI";
-import { validateProduct } from "../../../utils/validateProducts";
-import { uploadToImgbb } from "../../../services/uploadImage";
-import { createProduct } from "../../../services/products";
+import { ProductFormUI } from "../ProductFormUI/ProductFormUI.jsx";
+import { validateProduct } from "../../../utils/validateProducts.js";
+import { uploadToImgbb } from "../../../services/uploadImage.js";
+import { createProduct } from "../../../services/products.js";
 
-import "../ProductFormContainer/ProductFormContainer.css";
+import "../ProductFormContainer/productFormContainer.css";
 
 export const ProductFormContainer = () => {
   const [loading, setLoading] = useState();
