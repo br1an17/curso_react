@@ -30,10 +30,10 @@
 
 
 import { useEffect, useState } from "react"
-import { ItemList } from "../ItemList/itemList"
+import { ItemList } from "../ItemList/itemList.jsx"
 import { useParams } from "react-router-dom"
 import './ItemListContainer.css'
-import { getProducts } from "../../services/products"
+import { getProducts } from "../../services/products.js"
 
 export const ItemListContainer = ({titulo}) => {
   const [products, setProducts] = useState([])
