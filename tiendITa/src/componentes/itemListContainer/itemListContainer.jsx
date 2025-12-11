@@ -30,7 +30,7 @@
 
 
 import { useEffect, useState } from "react"
-import { ItemList } from "../ItemList/ItemList.jsx"
+import { ItemList } from "../ItemList/ItemList"
 import { useParams } from "react-router-dom"
 import './ItemListContainer.css'
 import { getProducts } from "../../services/products.js"
