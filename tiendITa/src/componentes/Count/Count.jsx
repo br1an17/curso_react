@@ -25,7 +25,7 @@ export const Count = ({ text, onConfirm }) => {
         <button className="btn" onClick={decrement} disabled={count === 0}>
           -
         </button>
-        <span>{count}</span>
+        <span> {count}</span>
         <button className="btn" onClick={increment}>
           +
         </button>
